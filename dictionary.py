@@ -125,6 +125,13 @@ D = dict()
 
 for x in enumerate(range(2)):
     D[x[0]] = x[1]
-    D[x[1]+7] = x[0]
+    D[x[1] + 7] = x[0]
 
 print(D)
+
+t = {1: 1, 2: 2}
+p = {3: 3, 4: 4}
+
+res = {**t, **p}
+
+print(res)
