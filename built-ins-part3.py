@@ -49,3 +49,7 @@ print(round(123.12345))
 
 ## pow give power of given number -> 2**4
 print(pow(2, 4))
+
+_sum = lambda a, b: a + b
+
+print(_sum(10, 20))

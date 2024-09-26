@@ -1,4 +1,5 @@
 import copy
+from collections import Counter
 
 dict1 = {"username": "john", "age": 28, "user_type": "admin", 44: "sector"}
 
@@ -135,3 +136,7 @@ p = {3: 3, 4: 4}
 res = {**t, **p}
 
 print(res)
+
+t = "uiuioausdfoiuaisduiudf"
+
+print(dict(Counter(t)))
