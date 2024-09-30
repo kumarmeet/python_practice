@@ -1,0 +1,81 @@
+# Byte-compiled files
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+
+# Distribution / packaging
+*.egg
+*.egg-info/
+dist/
+build/
+*.egg-info/
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Virtual environment
+venv/
+ENV/
+env/
+.venv/
+.ENV/
+.env/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# PyCharm
+.idea/
+
+# VS Code
+.vscode/
+
+# MyPy
+.mypy_cache/
+
+# pytest
+.cache/
+nosetests.xml
+coverage.xml
+*.cover
+*.log
+*.tmp
+
+# Sphinx documentation
+docs/_build/
+
+# PyInstaller
+*.manifest
+*.spec
+*.swp
+*.swo
+
+# Environment variables
+.env
+
+# Docker
+docker-compose.override.yml
+docker-compose.override.yml.example
+
+# Local environment
+.local/
+
+# Mac OS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# Git ignore rules for IDEs and editors
+*.sublime-project
+*.sublime-workspace
+*.idea
+*.vscode
+*.swp
+*.swo
+
+.idea
