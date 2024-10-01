@@ -1,0 +1,24 @@
+## it may exists or not exists
+## if file is not exists then it will create a new file and write data
+def write_file(data: str):
+    file = open("write-data.txt", "w")
+    file.write(data)
+    file.close()
+
+
+def append_file(data: str):
+    file = open("write-data.txt", "a")
+    file.write("\n" + data)
+    file.close()
+
+
+def read_write_file(data: str):
+    file = open("my-data.txt", "r+")
+    reading = file.read()
+    file.write("\n" + data)
+    file.close()
+
+
+write_file("Writing data using write mode")
+append_file("This is appending data using append mode")
+read_write_file("Read and write file data")
