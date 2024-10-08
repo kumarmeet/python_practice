@@ -1,0 +1,2 @@
+Writing data using write mode
+This is appending data using append mode
